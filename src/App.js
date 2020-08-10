@@ -4,11 +4,11 @@ import { Switch, Route, Router, Link } from 'react-router-dom'
 import { createBrowserHistory } from 'history';
 
 import './App.css';
-import image1 from './img/image1.jpg';
-import image2 from './img/image2.jpg';
-import image3 from './img/image3.jpg';
-import image4 from './img/image4.jpg';
-import image5 from './img/image5.jpg';
+import image1 from 'https://github.com/kykim13/transition/blob/master/src/img/image1.jpg';
+import image2 from 'https://github.com/kykim13/transition/blob/master/src/img/image2.jpg';
+import image3 from 'https://github.com/kykim13/transition/blob/master/src/img/image3.jpg';
+import image4 from 'https://github.com/kykim13/transition/blob/master/src/img/image4.jpg';
+import image5 from 'https://github.com/kykim13/transition/blob/master/src/img/image5.jpg';
 
 const Page1 = () => <div className="page" style={{ backgroundImage: `url(${image1})`}} />;
 const Page2 = () => <div className="page" style={{ backgroundImage: `url(${image2})`}} />;
